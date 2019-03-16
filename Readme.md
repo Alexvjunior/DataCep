@@ -1,11 +1,12 @@
     Alexsander's Project
 
     The project is to seek information about the ceps,
-    the Brazilian post office, existem 3 files.
+    the Brazilian post office. Existem 3 files with extension json.
 =============================================================================================================================================
+    
+
     For DataCepScrapySC.py and DataCepScrapySP.py,
     you need requeriments below...
-
     1. install the last version of Python.
     2. install the last version of Scrapy(in terminal "pip install scrapy").
 
@@ -13,7 +14,7 @@
     1. Json
     2. Scrapy
 
-    To execute this two files, you need open yout control terminal, then
+    To execute this two files, you need open your control terminal, then
     go o the project path, after you must exeute the folloing command
     "scrapy runspider DataCepScrapySC.py" after the command "scrapy runspider DataCepScrapySP.py",
     will be generated 2 files named "resultScrapySC.json" and "resulScrapySP.json".
