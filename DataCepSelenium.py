@@ -50,7 +50,7 @@ class ProcessDataCep():
                 driver.find_element_by_xpath("/html/body/div[1]/div[3]/div[2]/div/div/div[2]/div[2]/div[2]/div[6]/a").click()
 
                 dicDad.update({state:valuesTable})
-        file = open('result.json', 'w')
+        file = open('resultSelenium.json', 'w')
         json.dump(dicDad, file)
         driver.close();
 
